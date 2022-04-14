@@ -2,6 +2,7 @@
     "name": "test_app_js",
     "version": "1.0.0",
     "description": "",
+    "homepage": "https://varvarashcherbyna7.github.io/test_app_js/",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
