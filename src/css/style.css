@@ -17,6 +17,9 @@
 .calculator__resultInputRow,
 .calculator__resultInput {
     width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .calculator__resultInputRow {
