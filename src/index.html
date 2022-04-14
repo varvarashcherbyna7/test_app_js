@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="calculator" class="wrapper__calculator">
+            <div class="calculator__resultInputRow">
+                <div class="calculator__resultInput">
+                    <input type="text" size="16" id="resultInput" name="inputResult">
+                </div>
+            </div>
+            <div class="calculator__inputRow">
+                <div class="buttons">
+                    <div>
+                        <input class="button" type="button" value="1" OnClick='press("1")'>
+                        <input class="button" type="button" value="2" OnClick='press("2")'>
+                        <input class="button" type="button" value="3" OnClick='press("3")'>
+                        <input class="button" type="button" value="+" OnClick='press("+")'>
+                    </div>
+                    <div>
+                        <input class="button" type="button" value="4" OnClick='press("4")'>
+                        <input class="button" type="button" value="5" OnClick='press("5")'>
+                        <input class="button" type="button" value="6" OnClick='press("6")'>
+                        <input class="button" type="button" value="-" OnClick='press("-")'>
+                    </div>
+                    <div>
+                        <input class="button" type="button" value="7" OnClick='press("7")'>
+                        <input class="button" type="button" value="8" OnClick='press("8")'>
+                        <input class="button" type="button" value="9" OnClick='press("9")'>
+                        <input class="button" type="button" value="x" OnClick='press("*")'>
+                    </div>
+                    <div>
+                        <input class="button" type="button" value="c" OnClick="clear1()">
+                        <input class="button" type="button" value="0" OnClick="press('0')">
+                        <input class="button" type="button" value="=" OnClick="calc()">
+                        <input class="button" type="button" value="/" OnClick="press('/')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

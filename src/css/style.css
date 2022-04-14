@@ -1,0 +1,79 @@
+.wrapper {
+    width: 90%;
+    margin: 15% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__calculator,
+.calculator__resultInputRow,
+.calculator__resultInput {
+    width: 60%;
+}
+
+.calculator__resultInputRow {
+    margin: 5px;
+}
+
+.calculator__resultInput {
+    width: 88%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 11px;
+    padding: 5px 25px;
+}
+
+.calculator__resultInput:active,
+.calculator__resultInput:hover {
+    border: 1px solid goldenrod;
+}
+
+#resultInput {
+    outline: none;
+    border: none;
+    width: 88%;
+    border-radius: 11px;
+    padding: 5px 25px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.calculator__resultInputRow,
+.calculator__inputRow {
+    width: 88%;
+}
+
+.calculator__inputRow .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.calculator__inputRow .buttons div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 7px;
+}
+
+.calculator__inputRow .buttons div .button {
+    width: calc(100%/4.5 - 0.5%);
+    height: 75px;
+    font-size: 22px;
+}
+
+#result {
+    color: #000;
+}
